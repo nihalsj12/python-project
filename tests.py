@@ -1,10 +1,9 @@
-from devopstp import tpdevclass                      
-
+import devopstp
 def test_print():
-    assert tpdevclass.print_function("hello")  
+    assert devopstp.print_function("hello")  
 
 def test_fun1():
-    assert tpdevclass.function_1(2,3)== 5
+    assert devopstp.function_1(2,3)== 5
 
 def test_fun1():
-    assert tpdtpdevclassev.function_2(5,2)== 3
+    assert devopstp.function_2(5,2)== 3
